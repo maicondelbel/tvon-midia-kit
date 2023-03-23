@@ -1,0 +1,204 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image:url('images/background.jpg'); 
+}
+.barra-videos {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin-top: -10px;
+}
+.barra-azul {
+    padding: 15% 0 10% 0;
+}
+.vantagens-title {
+	padding-top: 20px;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.vantagens-paragrafo {
+	font-size: 18px;
+	text-align: center;
+}
+
+.col-lg-3 {
+	padding: 15px !important;
+}
+.pontos-titulo {
+    padding: 10% 0;
+}
+.pontos {
+    float: right;
+    width: 70%;
+    padding-left: 20px;
+}
+.pontos h2{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.pontos h3{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.colunas-pontos {
+	padding: 25px;
+}
+.colunas-pontos .logo-empresa {
+    float: left;
+    width: 30%;
+}
+.colunas-pontos .destaque {
+	font-weight: bold;
+}
+.barra {
+    text-align: center;
+    padding: 40px 0; 
+    background-color: #329dc9; 
+    position: absolute; 
+    width: 100%; 
+    left: 15px;
+}
+.barra h1 {
+	font-weight: bold;
+	font-size: 28px;
+	text-transform: uppercase;
+}
+.divulgue {
+	text-align: center; 
+	font-weight: bold; 
+	font-size: 150px; 
+	text-transform: uppercase; 
+	color: #329dc9; 
+	line-height: 150px; 
+}
+.texto-divulgue {
+	text-align: center; 
+	font-weight: bold; 
+	font-size: 50px; 
+	text-transform: uppercase;
+}
+@media (max-width: 768px) {
+	.barra h1 {
+		font-weight: bold;
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+	.vantagens {
+		padding: 0 30px;
+	}
+	.divulgue {
+		font-size: 100px; 
+		line-height: 100px; 
+	}
+	.texto-divulgue {
+		font-size: 30px; 
+	}	
+}
+@media (max-width: 445px) {
+	.divulgue {
+		font-size: 70px; 
+		line-height: 100px; 
+	}
+	.texto-divulgue {
+		font-size: 20px; 
+	}	
+}
+.box > .hovicon {
+    display: inline-block;
+    font-size: 45px;
+    line-height: 100px;
+    cursor: pointer;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    color: #fff;
+}
+.box > .hovicon.small {
+    font-size: 20px;
+    line-height:45px;
+    width:45px;
+    height:45px;
+    margin:7px;
+}
+.box > .hovicon.mini {
+    font-size: 15px;
+    line-height:32px;
+    width:30px;
+    height:30px;
+    margin:7px;
+}
+.box > .hovicon.auto-width {
+    width: auto;
+    height: auto;
+    padding: 15px;
+}
+.box > .hovicon:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content:'';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.box > .hovicon:before {
+    speak: none;
+    font-size: 48px;
+    line-height: 90px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    display: block;
+    -webkit-font-smoothing: antialiased;
+}
+footer {
+    margin-top: 176px; 
+    text-align: center;
+}
+.box > .hovicon.effect-1 {
+    background: #329dc9;
+    -webkit-transition: background 0.2s, color 0.2s;
+    -moz-transition: background 0.2s, color 0.2s;
+    transition: background 0.2s, color 0.2s;
+}
+.box > .hovicon.effect-1:after {
+    top: -7px;
+    left: -7px;
+    padding: 7px;
+    box-shadow: 0 0 0 4px #329dc9;
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+    -webkit-transform: scale(.8);
+    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    transition: transform 0.2s, opacity 0.2s;
+    transform: scale(.8);
+    opacity: 0;
+}
+.box > .hovicon.effect-1.sub-a:hover {
+    background: #329dc9;
+    color: #fff;
+}
+.box > .hovicon.effect-1.sub-a:hover > i {
+    color: #fff;
+}
+.box > .hovicon.effect-1.sub-a:hover:after {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
